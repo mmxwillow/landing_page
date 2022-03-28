@@ -140,6 +140,35 @@ footer img{
     margin:0 5px;
 }
 
+#four .container{
+    background-color: var(--light-blue);
+    width:100%;
+    min-height:20vh;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    color:var(--almost-white);
+    font-size:18px;
+    gap:20px;
+}
+.container .left{
+    gap:0;
+}
+h3{
+    margin: 0;
+}
+#four button{
+    background-color:var(--light-blue);
+    border-radius: 10px;
+    border:solid 2px var(--almost-white);
+    padding:6px 20px;
+    font-size:18px;
+    width:8em;
+    color: var(--almost-white);
+}
+
 @media (width <= 35em){
     header{
         flex-direction:column;
@@ -176,5 +205,14 @@ footer img{
     }
     .author{
         font-size:20px;
+    }
+    #four .container{
+        flex-direction:column;
+    }
+    .container .left{
+        align-items: center;
+        text-align: center;
+        width:80%;
+        gap: 20px;
     }
 }
