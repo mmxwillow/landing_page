@@ -169,7 +169,7 @@ h3{
     color: var(--almost-white);
 }
 
-@media (width <= 35em){
+@media (max-width: 35em){
     header{
         flex-direction:column;
         justify-content: center;
@@ -180,7 +180,7 @@ h3{
     
 }
 
-@media (width <= 45em){
+@media (max-width: 45em){
     #one{
         flex-direction:column-reverse;
         justify-content: center;
